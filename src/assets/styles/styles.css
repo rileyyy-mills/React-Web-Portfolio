@@ -1,0 +1,53 @@
+/*                 */
+/* Element Styling */
+/*                 */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: rgb(63, 67, 99);
+}
+
+header {
+    height: 575px;
+    overflow: hidden;
+}
+
+
+/*                 */
+/*  Class Styling  */
+/*                 */
+.App {
+    max-width: 1200px;
+    width: 100%;
+    /* padding: 20px;
+    margin: 20px; */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    background-color: #fff;
+}
+
+.banner img {
+    width: 100%;
+    transform: translateY(-15%);
+}
+/* @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        margin: 10px;
+    }
+} */
+
+
+/*                 */
+/*   Id  Styling   */
+/*                 */
+#app {
+    
+}
